@@ -26796,6 +26796,8 @@ with pkgs;
 
   jack_capture = callPackage ../applications/audio/jack-capture { };
 
+  jackfreqd = callPackage ../tools/audio/jackfreqd { };
+
   jack_oscrolloscope = callPackage ../applications/audio/jack-oscrolloscope { };
 
   jack_rack = callPackage ../applications/audio/jack-rack { };
